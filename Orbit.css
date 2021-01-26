@@ -1,0 +1,80 @@
+body {
+ background-color: black;
+ color: white;
+ padding: 0;
+ margin: 0;
+ text-align: center;
+ display: block;
+ font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.MainWindow {
+    background-color: rgb(24, 24, 24);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.Data {
+    width: 40%;
+    height: 100%;
+}
+
+.Diagram {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Canvas {
+    background-color:rgb(0, 0, 0);
+    width: 99%;
+    height: 99%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#Solar {
+    color: white;
+    background-image: url(./Space.png);
+    border: 1px solid red;
+}
+
+.display {
+    
+}
+
+.PlanetList {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: scroll;
+    height: 80vh;
+}
+
+.Planets {
+
+}
+
+.Header {
+
+}
+
+.AddPlanet {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.AddPlanet:hover {
+    cursor: pointer;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
